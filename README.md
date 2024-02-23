@@ -21,23 +21,3 @@ git clone https://github.com/1sharkguy/Airqualityindexprediction.git
 cd <project-directory>
 pip install -r requirements.txt
 ```
-
-## Usage
-To predict the AQI using the project, follow these steps:
-
-1. Collect the data:
-```bash
-python scraping.py
-```
-
-2. Train the model:
-```bash
-python 'any_train_model'.py
-```
-
-3. Predict the AQI:
-```bash
-python predict_aqi.py --input <input_data_file>
-```
-
-Replace `<input_data_file>` with the path to the data file you want to use for prediction.
